@@ -1,0 +1,84 @@
+.body{
+    background-image: url(../images/tryby.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 10vh;
+}
+.navTop{
+    display: flex;
+    height: 10vh;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.navButton{
+    padding: 10px;
+    margin: 25px;
+    display: inline-table;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: large;
+    color: black;
+    transition: 0.5s;
+    
+}
+
+.navButton:hover{
+    color: rgb(102, 102, 102);
+    transition: 0.5s;
+    transform: scale(1.5);
+    transition: all 500ms;
+}
+
+
+.logoBackground{
+    background-color: white;
+    width: 300px;
+    height: 8vh;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+    border-radius: 10px;
+
+}
+
+.logo{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    object-fit: fill;
+}
+
+.langpl{
+    height: 8vh;
+    position: absolute;
+    right: 8vw;
+    top: 2vh;
+    transition: all 500ms;
+}
+
+.langpl:hover{
+    transform: scale(1.3);
+    transition: all 500ms;
+}
+
+.langgb{
+    height: 8vh;
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+    transition: all 500ms;
+}
+.langgb:hover{
+    transform: scale(1.3);
+    transition: all 500ms;
+}
